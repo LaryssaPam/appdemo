@@ -12,7 +12,7 @@ function CompteAReboursHeures() {
 
     if (estActif && tempsRestant > 0) {
       intervalle = setInterval(() => {
-        setTempsRestant((prev) => prev - 1);
+        setTempsRestant((prev) => prev - 90);
       }, 1000);
     } else if (tempsRestant === 0) {
       setEstActif(false);
