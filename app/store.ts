@@ -1,5 +1,6 @@
 const { configureStore } = require("@reduxjs/toolkit");
 
+// Configuration store for redux reducer
 export const store = configureStore({
     reducer : {}
 })
